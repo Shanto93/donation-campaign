@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom';
 
 const Card = ({ card }) => {
-    const { title, img, category } = card || {};
-    
-    // Define a mapping of category colors
+    const { id, title, img, category } = card || {};
+
     const categoryColors = {
         Health: '#0052FF',
         Education: '#FF444A',
@@ -11,19 +11,19 @@ const Card = ({ card }) => {
         Food: '#F87147',
     };
 
-    // Get the color based on the category (default to black if not found)
     const textColor = categoryColors[category] || 'black';
     const backColor = categoryColors[category] || 'black';
 
     return (
-        <div className="card w-60 shadow-xl" style={{ backgroundColor: backColor }}>
-            <img src={img} alt="Shoes" />
-            <div className="card-actions justify-start py-3 px-3">
-                <button className="border py-1 px-3 bg-white rounded-lg" style={{ color: textColor }} >{category}</button>
+        <Link to={`/home/${id}`}>
+            <div className="card w-60 shadow-xl" style={{ backgroundColor: backColor }}>
+                <img src={img} alt="Shoes" />
+                <div className="card-actions justify-start py-3 px-3">
+                    <button className="border py-1 px-3 bg-white rounded-lg" style={{ color: textColor }} >{category}</button>
+                </div>
+                <h2 className="pb-2 px-3 text-white text-lg font-bold">{title}</h2>
             </div>
-            {/* Apply the dynamic text color to the title */}
-            <h2 className="pb-2 px-3 text-white text-lg font-bold">{title}</h2>
-        </div>
+        </Link>
     );
 };
 
