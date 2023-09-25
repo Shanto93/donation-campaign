@@ -1,5 +1,4 @@
 import { NavLink, } from "react-router-dom";
-import Banner from "../Banner/Banner";
 
 const Header = () => {
 
@@ -42,7 +41,6 @@ const Header = () => {
                 </ul>
             </div>
         </nav>
-        <Banner></Banner>
        </div>
     );
 };

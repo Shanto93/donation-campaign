@@ -4,7 +4,7 @@
       "img": "https://i.ibb.co/t2hw7hd/Health.png",
       "category": "Health",
       "color": "#FF5733",
-      "title": "Medical Supplies for Children",
+      "title": "Clean water for children",
       "description": "Donate to provide essential medical supplies to children in need.",
       "price": 50
     },
@@ -13,7 +13,7 @@
       "img": "https://i.ibb.co/LQZYKZs/Education.png",
       "category": "Education",
       "color": "#3498DB",
-      "title": "School Books for Underprivileged Kids",
+      "title": "Good education",
       "description": "Help underprivileged children access quality education by donating school books.",
       "price": 20
     },
@@ -22,7 +22,7 @@
       "img": "https://i.ibb.co/jGnqFGr/Clothing.png",
       "category": "Clothing",
       "color": "#9B59B6",
-      "title": "Winter Coats for Homeless",
+      "title": "Used Clothing Drive",
       "description": "Support the homeless community by donating warm winter coats.",
       "price": 30
     },
@@ -31,43 +31,43 @@
       "img": "https://i.ibb.co/Ry58XKV/Food.png",
       "category": "Food",
       "color": "#27AE60",
-      "title": "Meals for Elderly Citizens",
+      "title": "Better Food for Everyone",
       "description": "Contribute to providing nutritious meals to elderly citizens in your community.",
       "price": 10
     },
     {
       "id": 5,
       "img": "https://i.ibb.co/t2hw7hd/Health.png",
-      "category": "Health",
+      "category": "Food",
       "color": "#FF5733",
-      "title": "Medicine for Low-Income Families",
+      "title": "Better Food for Everyone",
       "description": "Support low-income families by donating essential medicines.",
       "price": 40
     },
     {
       "id": 6,
       "img": "https://i.ibb.co/LQZYKZs/Education.png",
-      "category": "Education",
+      "category": "Clothing",
       "color": "#3498DB",
-      "title": "Laptops for Remote Learning",
+      "title": "Used Clothing Drive",
       "description": "Enable students to access online education by donating laptops.",
       "price": 300
     },
     {
       "id": 7,
       "img": "https://i.ibb.co/jGnqFGr/Clothing.png",
-      "category": "Clothing",
+      "category": "Education",
       "color": "#9B59B6",
-      "title": "Warm Blankets for Refugees",
+      "title": "Good education",
       "description": "Provide warmth and comfort to refugees with blankets and warm clothing.",
       "price": 25
     },
     {
       "id": 8,
       "img": "https://i.ibb.co/Ry58XKV/Food.png",
-      "category": "Food",
+      "category": "Health",
       "color": "#27AE60",
-      "title": "Emergency Food Kits",
+      "title": "Clean water for children",
       "description": "Help families in crisis with emergency food kits containing essential supplies.",
       "price": 15
     },
@@ -76,7 +76,7 @@
       "img": "https://i.ibb.co/t2hw7hd/Health.png",
       "category": "Health",
       "color": "#FF5733",
-      "title": "Vaccination Drive",
+      "title": "Clean water for children",
       "description": "Support a vaccination drive to protect vulnerable communities.",
       "price": 75
     },
@@ -85,7 +85,7 @@
       "img": "https://i.ibb.co/LQZYKZs/Education.png",
       "category": "Education",
       "color": "#3498DB",
-      "title": "Scholarships for Underprivileged Students",
+      "title": "Good education",
       "description": "Give underprivileged students a chance at a brighter future with scholarships.",
       "price": 50
     },
@@ -94,7 +94,7 @@
       "img": "https://i.ibb.co/jGnqFGr/Clothing.png",
       "category": "Clothing",
       "color": "#9B59B6",
-      "title": "Shoes for Children in Need",
+      "title": "Used Clothing Drive",
       "description": "Donate shoes to children in need to protect their feet.",
       "price": 20
     },
