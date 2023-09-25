@@ -1,0 +1,111 @@
+[
+    {
+      "id": 1,
+      "img": "https://i.ibb.co/t2hw7hd/Health.png",
+      "category": "Health",
+      "color": "#FF5733",
+      "title": "Medical Supplies for Children",
+      "description": "Donate to provide essential medical supplies to children in need.",
+      "price": 50
+    },
+    {
+      "id": 2,
+      "img": "https://i.ibb.co/LQZYKZs/Education.png",
+      "category": "Education",
+      "color": "#3498DB",
+      "title": "School Books for Underprivileged Kids",
+      "description": "Help underprivileged children access quality education by donating school books.",
+      "price": 20
+    },
+    {
+      "id": 3,
+      "img": "https://i.ibb.co/jGnqFGr/Clothing.png",
+      "category": "Clothing",
+      "color": "#9B59B6",
+      "title": "Winter Coats for Homeless",
+      "description": "Support the homeless community by donating warm winter coats.",
+      "price": 30
+    },
+    {
+      "id": 4,
+      "img": "https://i.ibb.co/Ry58XKV/Food.png",
+      "category": "Food",
+      "color": "#27AE60",
+      "title": "Meals for Elderly Citizens",
+      "description": "Contribute to providing nutritious meals to elderly citizens in your community.",
+      "price": 10
+    },
+    {
+      "id": 5,
+      "img": "https://i.ibb.co/t2hw7hd/Health.png",
+      "category": "Health",
+      "color": "#FF5733",
+      "title": "Medicine for Low-Income Families",
+      "description": "Support low-income families by donating essential medicines.",
+      "price": 40
+    },
+    {
+      "id": 6,
+      "img": "https://i.ibb.co/LQZYKZs/Education.png",
+      "category": "Education",
+      "color": "#3498DB",
+      "title": "Laptops for Remote Learning",
+      "description": "Enable students to access online education by donating laptops.",
+      "price": 300
+    },
+    {
+      "id": 7,
+      "img": "https://i.ibb.co/jGnqFGr/Clothing.png",
+      "category": "Clothing",
+      "color": "#9B59B6",
+      "title": "Warm Blankets for Refugees",
+      "description": "Provide warmth and comfort to refugees with blankets and warm clothing.",
+      "price": 25
+    },
+    {
+      "id": 8,
+      "img": "https://i.ibb.co/Ry58XKV/Food.png",
+      "category": "Food",
+      "color": "#27AE60",
+      "title": "Emergency Food Kits",
+      "description": "Help families in crisis with emergency food kits containing essential supplies.",
+      "price": 15
+    },
+    {
+      "id": 9,
+      "img": "https://i.ibb.co/t2hw7hd/Health.png",
+      "category": "Health",
+      "color": "#FF5733",
+      "title": "Vaccination Drive",
+      "description": "Support a vaccination drive to protect vulnerable communities.",
+      "price": 75
+    },
+    {
+      "id": 10,
+      "img": "https://i.ibb.co/LQZYKZs/Education.png",
+      "category": "Education",
+      "color": "#3498DB",
+      "title": "Scholarships for Underprivileged Students",
+      "description": "Give underprivileged students a chance at a brighter future with scholarships.",
+      "price": 50
+    },
+    {
+      "id": 11,
+      "img": "https://i.ibb.co/jGnqFGr/Clothing.png",
+      "category": "Clothing",
+      "color": "#9B59B6",
+      "title": "Shoes for Children in Need",
+      "description": "Donate shoes to children in need to protect their feet.",
+      "price": 20
+    },
+    {
+      "id": 12,
+      "img": "https://i.ibb.co/Ry58XKV/Food.png",
+      "category": "Food",
+      "color": "#27AE60",
+      "title": "Meals for Homeless Veterans",
+      "description": "Help homeless veterans access nutritious meals and support services.",
+      "price": 12
+    }
+  ]
+  

@@ -1,9 +1,10 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, } from "react-router-dom";
+import Banner from "../Banner/Banner";
 
 const Header = () => {
 
     return (
-        // This is Navbar Section
+       <div>
         <nav className="flex justify-between items-center py-3 shadow-lg">
             {/* Here is NavBar image part work */}
             <div>
@@ -41,9 +42,8 @@ const Header = () => {
                 </ul>
             </div>
         </nav>
-
-        // This is banner section
-        
+        <Banner></Banner>
+       </div>
     );
 };
 
