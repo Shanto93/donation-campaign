@@ -15,7 +15,7 @@ const Details = ({ data }) => {
 
         const addToDonate = [];
 
-        const donateItems = JSON.parse(localStorage.getItem('donate'))
+        const donateItems = JSON.parse(localStorage.getItem('donate'));
 
         if (!donateItems) {
             addToDonate.push(data);
