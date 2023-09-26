@@ -22,6 +22,7 @@ const Details = ({ data }) => {
             localStorage.setItem('donate', JSON.stringify(addToDonate));
             Swal.fire(
                 'Successfully Donated',
+                'Added to donation list',
                 'Thank you for Donating',
             )
         }
@@ -34,6 +35,7 @@ const Details = ({ data }) => {
                 localStorage.setItem('donate', JSON.stringify(addToDonate));
                 Swal.fire(
                     'Successfully Donated',
+                    'Added to donation list',
                     'Thank you for Donating',
                 )
             }else{

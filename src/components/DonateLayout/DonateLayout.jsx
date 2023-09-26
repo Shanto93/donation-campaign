@@ -22,7 +22,7 @@ const DonateLayout = ({ donate }) => {
                     <h2 className="text-lg font-semibold
                 ">{title} </h2>
                     <button className="px-1 py-1 border rounded-lg bg-white block" style={{ color: textColor }}>${price} </button>
-                    <button className="border px-3 py-1 text-white rounded-xl text-white" style={{ backgroundColor: backColor }}>View Details</button>
+                    <button className="border px-3 py-1 text-white rounded-xl" style={{ backgroundColor: backColor }}>View Details</button>
                 </div>
             </div>
         </div>
