@@ -7,7 +7,7 @@ const Header = () => {
             <nav className="flex-row lg:flex justify-between items-center py-3 shadow-lg">
                 {/* Here is NavBar image part work */}
                 <div>
-                    <img className="w-36" src="./../../../public/assets/Logo.png" alt="" />
+                    <img className="w-36" src="https://i.ibb.co/q5fK5gf/Logo.png" alt="" />
                 </div>
 
                 {/* Here is NavBar list part work */}
