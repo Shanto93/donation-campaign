@@ -11,6 +11,7 @@ const Card = ({ card }) => {
         Food: '#F87147',
     };
 
+
     const textColor = categoryColors[category] || 'black';
     const backColor = categoryColors[category] || 'black';
 

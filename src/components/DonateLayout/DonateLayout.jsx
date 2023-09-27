@@ -15,14 +15,14 @@ const DonateLayout = ({ donate }) => {
         <div>
             <div className="flex mt-5" style={{ backgroundColor: backColor, back: 0.5 }}>
                 <div>
-                    <img src={img} alt="" />
+                    <img className="h-full" src={img} alt="" />
                 </div>
-                <div className="pl-5 space-y-2">
+                <div className="pl-2 md:pl-5 space-y-1 md:space-y-2">
                     <button className="bg-white mt-3 px-3 py-2 rounded-xl" style={{ color: textColor }}>{category}</button>
                     <h2 className="text-lg font-semibold
                 ">{title} </h2>
                     <button className="px-1 py-1 border rounded-lg bg-white block" style={{ color: textColor }}>${price} </button>
-                    <button className="border px-3 py-1 text-white rounded-xl" style={{ backgroundColor: backColor }}>View Details</button>
+                    <button className="border px-1 text-base md:px-3 py-1 md:text-xl text-white rounded-xl" style={{ backgroundColor: backColor }}>View Details</button>
                 </div>
             </div>
         </div>
