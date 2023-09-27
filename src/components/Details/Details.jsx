@@ -1,4 +1,5 @@
-import { json } from 'react-router-dom';
+import PropTypes from 'prop-types'
+// import { json } from 'react-router-dom';
 import Swal from 'sweetalert2'
 
 const Details = ({ data }) => {
@@ -66,4 +67,7 @@ const Details = ({ data }) => {
     );
 };
 
+Details.propTypes = {
+    data: PropTypes.object.isRequired,
+}
 export default Details;

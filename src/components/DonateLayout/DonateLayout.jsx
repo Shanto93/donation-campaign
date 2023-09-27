@@ -1,5 +1,6 @@
+import PropTypes from 'prop-types'
 const DonateLayout = ({ donate }) => {
-    const { id, title, img, category, price } = donate;
+    const { title, img, category, price } = donate;
 
     const categoryColors = {
         Health: '#0052FF',
@@ -29,4 +30,7 @@ const DonateLayout = ({ donate }) => {
     );
 };
 
+DonateLayout.propTypes = {
+    donate: PropTypes.object.isRequired,
+}
 export default DonateLayout;
